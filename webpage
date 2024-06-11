@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renisha - Executive/Personal Assistant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .main {
+            padding: 30px;
+            background: #fff;
+        }
+        .main h1 {
+            color: #333;
+        }
+        .main p {
+            color: #666;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li {
+            background: #e2e2e2;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Renisha</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="main container">
+        <section id="about" class="section">
+            <h1>About Me</h1>
+            <p>I am a seasoned administrative professional with over 10 years of experience supporting C-suite executives. My expertise spans project management, business development, strategic planning and execution, process improvement, and relationship building. I have also worked as a personal assistant to a tech founder, providing comprehensive support and ensuring smooth operations.</p>
+        </section>
+
+        <section id="services" class="section">
+            <h1>Services</h1>
+            <ul>
+                <li><strong>Bookkeeper:</strong> Great with accounting and tracking budgets for various projects.</li>
+                <li><strong>Administrative Assistant:</strong> Schedules meetings, completes routine reporting, and handles communication between executives and outside entities.</li>
+                <li><strong>Scribe:</strong> Types notes during meetings or presentations.</li>
+                <li><strong>Social Media Manager:</strong> Handles the company’s various social accounts.</li>
+                <li><strong>Designer:</strong> Designs presentations, infographics, logos, flyers, and other visual collateral.</li>
+                <li><strong>Research Analyst:</strong> Conducts research tasks or interviews and analyzes business data.</li>
+            </ul>
+        </section>
+
+        <section id="skills" class="section">
+            <h1>Skills</h1>
+            <ul>
+                <li>Project Management</li>
+                <li>Business Development</li>
+                <li>Strategic Planning & Execution</li>
+                <li>Process Improvement</li>
+                <li>Relationship Building</li>
+                <li>Accounting & Bookkeeping</li>
+                <li>Meeting Scheduling & Reporting</li>
+                <li>Note-taking & Documentation</li>
+                <li>Social Media Management</li>
+                <li>Graphic Design</li>
+                <li>Research & Data Analysis</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="section">
+            <h1>Contact</h1>
+            <p>Feel free to reach out to me for any inquiries or collaboration opportunities.</p>
+            <p>Email: <a href="mailto:renisha@example.com">renisha@example.com</a></p>
+            <p>Phone: (123) 456-7890</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2024 Renisha. All rights reserved.</p>
+    </footer>
+</body>
+</html>
